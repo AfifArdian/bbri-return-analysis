@@ -18,12 +18,14 @@ volatilitas, dan Sharpe Ratio.
 - matplotlib, seaborn
 
 ## 📁 Struktur Project
+```
 bbri-return-analysis/
 ├── README.md
 ├── requirements.txt
 ├── analysis.ipynb
 └── output/
     └── comparison_chart.png
+```
 
 ## 🔍 Cara Menjalankan
 1. Clone repository ini
