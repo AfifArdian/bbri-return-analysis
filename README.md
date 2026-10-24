@@ -1,15 +1,15 @@
-# 📊 Analisis Return Saham BBRI vs BMRI 2019–2024
+# 📊 BBRI vs BMRI Stock Return Analysis 2019–2024
 
-## 🎯 Deskripsi Project
-Project ini menganalisis dan membandingkan performa
-saham BBRI dan BMRI selama 5 tahun terakhir
-menggunakan Python, dengan fokus pada return,
-volatilitas, dan Sharpe Ratio.
+## 🎯 Project Description
+This project analyzes and compares performance
+BBRI and BMRI shares over the last 5 years
+using Python, with a focus on returns,
+volatility, and Sharpe Ratio.
 
-## ❓ Pertanyaan yang Dijawab
-- Saham mana yang memberikan return lebih tinggi?
-- Saham mana yang lebih stabil (volatilitas rendah)?
-- Saham mana yang lebih efisien (Sharpe Ratio)?
+## ❓ Questions Answered
+- Which shares provide higher returns?
+- Which stocks are more stable (low volatility)?
+- Which stock is more efficient (Sharpe Ratio)?
 
 ## 🛠️ Tools & Library
 - Python 3.10+
@@ -17,7 +17,7 @@ volatilitas, dan Sharpe Ratio.
 - yfinance
 - matplotlib, seaborn
 
-## 📁 Struktur Project
+## 📁 Project Structure
 ```
 bbri-return-analysis/
 ├── README.md
@@ -27,20 +27,20 @@ bbri-return-analysis/
     └── comparison_chart.png
 ```
 
-## 🔍 Cara Menjalankan
-1. Clone repository ini
+## 🔍 How to Run
+1. This clone repository
    git clone https://github.com/username/bbri-return-analysis
-2. Install library
+2. Install libraries
    pip install -r requirements.txt
-3. Buka analysis.ipynb di Jupyter Notebook
+3. Open analysis.ipynb in Jupyter Notebook
 
-## 📈 Hasil Utama
-- BBRI: Return 5 tahun +8.20%, Sharpe Ratio 0.033
-- BMRI: Return 5 tahun +55.07%, Sharpe Ratio 0.197
-- Kesimpulan: Selama 5 tahun pada tahun sekitar 2019-2024, Saham BMRI lebih baik dari pada BBRI. Karena selama 5 tahun BMRI menghasilkan return sekitar 55.07% dengan Sharpe Ratio yang cukup bagus sekitar 0.197 dibandingkan dengan BBRI yang hanya bisa menghasilkan return 8.20% dengan Sharpe Ratio sekitar 0.033. Jika anda berinvestasi 10JT pada saham BMRI pada tahun 2019-2024, maka ada akan mendapat keuntungan sekitar 5,5JT
+## 📈 Main Results
+- BBRI: Return 5 years +8.20%, Sharpe Ratio 0.033
+- BMRI: Return 5 years +55.07%, Sharpe Ratio 0.197
+- Conclusion: For 5 years around 2019-2024, BMRI shares are better than BBRI. Because for 5 years BMRI produced a return of around 55.07% with a fairly good Sharpe Ratio of around 0.197 compared to BBRI which could only produce a return of 8.20% with a Sharpe Ratio of around 0.033. If you invest 10 million in BMRI shares in 2019-2024, you will make a profit of around 5.5 million
 
 ## 📊 Visualisasi
-[Perbandingan Return](output/analisis_bbri_bmri.png)
+[Return Comparison](output/analisis_bbri_bmri.png)
 
 ## 👤 Author
 Afif Ardian Saputra
