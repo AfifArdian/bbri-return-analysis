@@ -159,7 +159,7 @@ def main():
 
     buat_plot(data)
 
-    # Simpan ringkasan ke CSV (opsional, berguna untuk README di GitHub)
+    # Simpan ringkasan ke CSV (untuk README di GitHub)
     pd.DataFrame(stats).to_csv("output/ringkasan_statistik.csv", index=False)
     print("[OK] Ringkasan disimpan: ringkasan_statistik.csv")
     print(data['BMRI'])
